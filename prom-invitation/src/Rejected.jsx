@@ -50,7 +50,9 @@ export default function Rejected() {
                     ref={yesButtonRef}
                     className="yes"
                     onClick={changeText}
-                    onMouseEnter={text === 'Do you really reject our invitation?🥺' ? moveButton : undefined}>Yes</button>
+                    onMouseEnter={text === 'Do you really reject our invitation?🥺' ? moveButton : undefined}
+                    onTouchStart={text === 'Do you really reject our invitation?🥺' ? moveButton : undefined}>Yes</button>
+                    
                 <Link to='/' className="no">No</Link>
             </div>
         </>

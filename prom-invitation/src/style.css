@@ -58,7 +58,7 @@ h3 {
 
 .ticket {
     display: inline-block;
-    width: 339px;
+    width: min(339px, 90vw);
     margin-bottom: 40px;
     padding: 12px 22px;
     border-radius: 50px;
